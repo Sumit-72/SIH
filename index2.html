@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Less Travelled</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+        <style>
+          .carousel-item {
+              height: 80vh;
+          }
+          .carousel-item img {
+              width: 100%;
+              height: 80vh;
+              object-fit: cover;
+          }
+
+      </style>
+
+</head>
+
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    
+
+    <div class="d-flex gap-2 justify-content-center py-3" style="background-color: rgb(36, 74, 74);">
+      <a href="index.html" style="text-decoration: none; color:white; width: 90%;">  
+        <button class="btn btn-primary rounded-pill px-3" type="button" style="width: 100%;">
+            The Soul of India</button>
+      </a>
+      <a href="index2.html" style="color: azure; text-decoration: none; width: 90%;">  
+        <button class="btn btn-secondary rounded-pill px-3" type="button" style="width: 100%;">
+            Hidden Gems of India</button>
+      </a>
+    </div>
+    
+    
+    <!--First image-->
+    <div class="p-md-5 text-center bg-body-tertiary" 
+     style="height:500px;background-image: url(https://blog.weekendthrill.com/wp-content/uploads/2016/09/091916_1502_15Unexplore1.jpg); background-size:cover; background-position: center; background-repeat: no-repeat;width: 100vw; margin: 0; padding: 0;">
+    <div class="col-md-6 p-lg-5 mx-auto my-5" style="background-color: rgba(255, 255, 255, 0.6); padding: 20px; border-radius: 10px;">
+        <h1 class="display-3 fw-bold">Unexplored Gems Of India</h1>
+        <h3 class="fw-normal text-muted mb-3">Unseen, Untold, Unforgettable!</h3>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+        </div>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+    <!--Hero-->
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" style="background-color: beige;padding: 50px !important;">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Hidden Gems Waiting to be Explored!</h1>
+          <p class="lead">Discover India’s hidden gems, from Majuli in Assam, the world’s largest river island, to Ziro Valley in Arunachal Pradesh with its terraced fields and tribal culture. Explore Tirthan Valley in Himachal Pradesh, the “Grand Canyon of India” at Gandikota, and the mystical landscapes of Spiti Valley. For a remote escape, visit Mechuka in Arunachal, a serene haven of monasteries and pristine nature. Uncover the unexplored beauty of India!</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Know More</button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" margin-bottom="50px">
+            <img class="rounded-lg-3" src='https://www.wowclub.com/blog/content/images/2018/03/gurez-valley-green-kashmir-tours-and-travels.jpg' alt="" width="720" >
+        </div>
+      </div>
+
+ <!--Carousel-->
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="height: 700px;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" style="height: 100%;">
+    <div class="carousel-item active" style="height: 100%;">
+      <img src="images/gvpic3.jpeg" alt="Slide 1" class="d-block w-100" style="height: 100%; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-start">
+          <h1>Unlock the Secrets of India’s Untouched Wonders</h1>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="height: 100%;">
+      <img src="images/tawang.jpg" alt="Slide 2" class="d-block w-100" style="height: 100%; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 style="border-radius:50px;color:black;background-color: rgba(245, 245, 220, 0.681); padding:10px">Beyond the Tourist Trails: Discover India’s Best-Kept Secrets</h1>
+          <p style="background-color:rgb(0, 0, 0);color:black;display:inline"></p>
+          <p><a class="btn btn-lg btn-primary" href="https://www.marvel.com/comics">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" style="height: 100%;">
+      <img src="images/gurezvalley.jpg" alt="Slide 3" class="d-block w-100" style="height: 100%; object-fit: cover;">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Hidden Treasures, Untold Stories: Explore the Unexplored India</h1>
+          <p><a class="btn btn-lg btn-primary" href="https://www.google.com/search?sca_esv=006e7d7c46243fb0&sca_upv=1&sxsrf=ADLYWIKV72-2qM3O0iZuZMdpNvh_0WHmHg:1725161862275&q=marvel&udm=2&fbs=AEQNm0AeMNWKf4PpcKMI-eSa16lJoRPMIuyspCxWO6iZW9F1Nu5UXlEfGU2YX1CrW9Nmm9Q3JIJZUqyMsLxos5tPU_UnYZfYuJgkiTORHgg7CrtBy2do69kQ9k88SD9fr3qxy8iaS2EsNa4ZuxhX52jKJIHFyYz2WFp1dhAM6krdZOPO-VPExa7wBd2MjXyu2Oms0XaJvfB1PDF7KJU--1YGOsvbTZfc-Q&sa=X&ved=2ahUKEwi0lOzf6KCIAxVWbmwGHa0hGAoQtKgLegQIGBAB&biw=1536&bih=695&dpr=1.25">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+<!--hero-->
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/gvpic2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Unveil the Hidden Wonders of India: Journey Beyond the Ordinary</h1>
+        <p class="lead">India’s true beauty often lies in its lesser-known destinations, offering a glimpse of untouched landscapes and authentic culture. Explore Majuli in Assam, the world’s largest river island; Ziro Valley in Arunachal Pradesh, with its terraced rice fields and tribal charm; or the serene Tirthan Valley in Himachal Pradesh, nestled in the Great Himalayan National Park. Discover the breathtaking canyon of Gandikota in Andhra Pradesh, or the surreal, monastery-laden Spiti Valley, often called “Little Tibet</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Album-->
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm" style="height: 100%;">
+            <img src="images/gthumbail.jpeg" style="height: 200px; object-fit: cover;">
+            <div style="border-radius: 20px; width: 60%; background-color: rgba(255, 255, 255, 0.673); position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); color: black; font-size: 2rem; text-align: center;">
+              <h1>Gurez Valley</h1>
+              <p style="font-size: medium;">Kashmir’s Untold Adventure Story</p>
+            </div>
+            <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="d1.html" style="text-decoration: none; font-weight: bold; color: black;">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" style="cursor: pointer;">View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col">
+          <div class="card shadow-sm" style="height: 100%;">
+            <img src="images/manthumbnail.jpg" style="height: 200px; object-fit: cover;">
+            <div style="border-radius: 20px; width: 60%; background-color: rgba(255, 255, 255, 0.673); position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); color: black; font-size: 2rem; text-align: center;">
+              <h1>Mandagarh</h1>
+              <p style="font-size: medium;">Where History Meets Nature’s Tranquil Beauty!</p>
+            </div>
+            <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="d1.html" style="text-decoration: none; font-weight: bold; color: black;">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" style="cursor: pointer;">View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+        <div class="col">
+          <div class="card shadow-sm" style="height: 100%;">
+            <img src="images/sunthumbnail.jpg" style="height: 200px; object-fit: cover;">
+            <div style="border-radius: 20px; width: 60%; background-color: rgba(255, 255, 255, 0.673); position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); color: black; font-size: 2rem; text-align: center;">
+              <h1>SunderBan</h1>
+              <p style="font-size: medium;">Nature’s Raw Beauty</p>
+            </div>
+            <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between;">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="d1.html" style="text-decoration: none; font-weight: bold; color: black;">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" style="cursor: pointer;">View</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+      </div> 
+      </div>
+    </div>
+  </div>
+
+<!--Footer-->
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 mt-5 border-top" style="background-color: #2c3e50; color: #ecf0f1;">
+  <div class="col mb-4">
+      <a href="/" class="d-flex align-items-center mb-3 link-light text-decoration-none">
+          <img src="https://th.bing.com/th/id/OIP.VSdFQ1ymFBqGQYGxkeTYHwHaD8?rs=1&pid=ImgDetMain" alt="Logo" width="150" height="75"style="padding-left:20px">
+      </a>
+      <p class="text-light">© 2024 Incredible India!</p>
+      <p class="text-light" style="padding: 10px;">Explore India with us! Discover hidden gems, breathtaking landscapes, and cultural wonders.</p>
+  </div>
+
+  <div class="col mb-4">
+      <h5 class="text-light">Popular Destinations</h5>
+      <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Delhi</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Goa</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Mysore</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Jaipur</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Mumbai</a></li>
+      </ul>
+  </div>
+
+  <div class="col mb-4">
+      <h5 class="text-light">Travel Resources</h5>
+      <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Travel Guides</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Booking Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Visa Information</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Safety Tips</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+      </ul>
+  </div>
+
+  <div class="col mb-4" >
+      <h5 class="text-light"style="font-size: medium;">Contact Us</h5>
+      <p class="text-light" style="font-size: medium;">Email: <a href="mailto:info@indiatour.com" class="text-light">info@indiatour.com</a></p>
+      <p class="text-light" style="font-size: medium;">Phone: <a href="tel:+123456789" class="text-light">+123 456 789</a></p>
+      <p class="text-light"style="font-size: medium;">Address: 123 India</p>
+      <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-youtube"></i></a></li>
+      </ul>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
